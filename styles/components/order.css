@@ -140,6 +140,59 @@
   transition: transform 0.3s, box-shadow 0.3s;
   width: 70%;
 }
+
+.food-service__conatiner {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+  position: relative;
+  
+}
+
+.fs-option__btn {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: var(--size-xs);
+  padding: 1em;
+  background-color: var(--clr-orange);
+  border-radius: 6px;
+  border: 1px solid var(--clr-orange);
+  transition: border 0.3s;
+}
+
+.fs-option__btn:hover {
+  border-bottom: 4px solid rgb(174, 87, 0);
+}
+.food-service__options {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  gap: 0.3em;
+  padding: 0;
+  width: 50%;
+  right: 0;
+  top: 110%;
+  display: none;
+ z-index: 9999;
+ 
+}
+
+.food-service__options li {
+  padding: 1em;
+  font-size: var(--size-xs);
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  background-color: var(--clr-slate400);
+  transition: background-color 0.3s;
+  border-radius: 6px;
+  box-shadow: 0 0 15px 2px rgba(0, 0, 0, 0.3);
+}
+.food-service__options li:hover {
+  background-color: var(--clr-slate600);
+}
 /* xs */
 @media (min-width: 475px) {
   .payment__category {

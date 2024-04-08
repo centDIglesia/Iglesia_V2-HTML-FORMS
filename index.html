@@ -9,6 +9,13 @@
       href="https://api.fontshare.com/v2/css?f[]=poppins@300,400,500, 600, 700&display=swap"
       rel="stylesheet"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
   </head>
   <body>
     <header class="header container">
@@ -328,15 +335,31 @@
                     <option value="takeOut">Take Out</option>
                   </select>
                 </div>
+              </div>
 
-                <div class="select__service">
-                  <label for="foodServiceOption2">Food Service Option</label>
-
-                  <select id="foodServiceOption2" class="food-service-select">
-                    <option value="dineIn">Dine In</option>
-                    <option value="takeOut">Take Out</option>
-                  </select>
+              <div class="food-service__conatiner">
+                <div class="fs-option__btn">
+                  <span>Select Type of cake</span>
+                  <i></i>
                 </div>
+
+                <ul class="food-service__options">
+                  <li>
+                    <span class="cake__name">Chocolate Cake</span>
+                  </li>
+                  <li>
+                    <span class="cake__name">Vanilla Cake</span>
+                  </li>
+                  <li>
+                    <span class="cake__name">Carrot Cake</span>
+                  </li>
+                  <li>
+                    <span class="cake__name">Red Velvet Cake</span>
+                  </li>
+                  <li>
+                    <span class="cake__name">Red Lemon Cake</span>
+                  </li>
+                </ul>
               </div>
 
               <div class="order__mode-payment">
@@ -390,7 +413,7 @@
 
               <div class="order__buttons">
                 <button
-                  class="submit__btn btn"
+                  class="submit__btn submit-js btn"
                   type="submit"
                   class="submit__button"
                 >
