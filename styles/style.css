@@ -45,12 +45,7 @@ html {
   --clr-slate800: #475569;
   --clr-slate600: #1e293b;
   --clr-orange: #eb7d00;
- 
 
-  --clrrgba-orange: rgba(235, 125, 0, 1);
- 
-
-  /* sizes */
   --size-xxs: 0.5rem;
   --size-xs: 0.75rem;
   --size-sm: 0.875rem;

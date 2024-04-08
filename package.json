@@ -2,7 +2,7 @@
   "name": "ho2",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://github.com/centDIglesia/Iglesia_V2-HTML-FORMS}",
+  "homepage": "https://github.com/centDIglesia/Iglesia_V2-HTML-FORMS",
   "type": "module",
   "scripts": {
     "dev": "vite",
