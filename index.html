@@ -16,11 +16,11 @@
       <nav>
         <ul class="header__menu">
           <li><a class="header__link" href="#Home">Home</a></li>
-          <li><a class="header__link" href="#Menu">Menu</a></li>
+          <li><a class="header__link" href="#menu__page">Menu</a></li>
           <li><a class="header__link" href="#About">About</a></li>
           <li class="header__line"></li>
           <li>
-            <button class="header__sun">
+            <button class="header__sun sun-js">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 24 24"
@@ -33,7 +33,9 @@
             </button>
           </li>
 
-          <li><a class="header__order btn" href="#">Order now</a></li>
+          <li>
+            <a class="header__order btn" href="#order__page">Order now</a>
+          </li>
         </ul>
         <button class="header__bars">
           <svg
@@ -50,6 +52,40 @@
         </button>
       </nav>
     </header>
+
+    <!--mobile nav-->
+
+    <div class="mobile__nav">
+      <nav>
+        <ul class="mobile-nav__menu">
+          <li><a class="mobile-nav__link" href="#order__page">Home</a></li>
+          <li><a class="mobile-nav__link" href="#order__page">Menu</a></li>
+          <li><a class="mobile-nav__link" href="#order__page">About</a></li>
+          <li class="mobile-nav__line"></li>
+          <li>
+            <button class="mobile-nav__sun sun-js">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 24 24"
+                fill="currentColor"
+              >
+                <path
+                  d="M12 2.25a.75.75 0 0 1 .75.75v2.25a.75.75 0 0 1-1.5 0V3a.75.75 0 0 1 .75-.75ZM7.5 12a4.5 4.5 0 1 1 9 0 4.5 4.5 0 0 1-9 0ZM18.894 6.166a.75.75 0 0 0-1.06-1.06l-1.591 1.59a.75.75 0 1 0 1.06 1.061l1.591-1.59ZM21.75 12a.75.75 0 0 1-.75.75h-2.25a.75.75 0 0 1 0-1.5H21a.75.75 0 0 1 .75.75ZM17.834 18.894a.75.75 0 0 0 1.06-1.06l-1.59-1.591a.75.75 0 1 0-1.061 1.06l1.59 1.591ZM12 18a.75.75 0 0 1 .75.75V21a.75.75 0 0 1-1.5 0v-2.25A.75.75 0 0 1 12 18ZM7.758 17.303a.75.75 0 0 0-1.061-1.06l-1.591 1.59a.75.75 0 0 0 1.06 1.061l1.591-1.59ZM6 12a.75.75 0 0 1-.75.75H3a.75.75 0 0 1 0-1.5h2.25A.75.75 0 0 1 6 12ZM6.697 7.757a.75.75 0 0 0 1.06-1.06l-1.59-1.591a.75.75 0 0 0-1.061 1.06l1.59 1.591Z"
+                />
+              </svg>
+            </button>
+          </li>
+          <li>
+            <a class="mobile-nav__btn mobile-nav__link btn" href="#order__page"
+              >Order now</a
+            >
+          </li>
+        </ul>
+      </nav>
+    </div>
+
+    <!--end mobile nav-->
+
     <main>
       <section class="hero container">
         <div class="hero__left">
@@ -62,7 +98,7 @@
             Savor delectable dishes online. Explore, indulge, and order with
             ease!
           </p>
-          <a class="hero__button btn" href="#">See menu</a>
+          <a class="hero__button btn" href="#menu__page">See menu</a>
         </div>
 
         <div class="hero__right">
@@ -70,7 +106,7 @@
         </div>
       </section>
 
-      <section class="menu container">
+      <section class="menu container" id="menu__page">
         <div class="menu__text">
           <p class="menu__subtitle">Most Popular</p>
           <h2 class="menu_title">Our Exclusive Cakes</h2>
@@ -90,7 +126,7 @@
                 Fresh blueberries are nestled on the top,<br />
                 adding a burst of tart flavor.
               </p>
-              <a class="card__btn btn" href="#">Check out</a>
+              <a class="card__btn btn" href="#order__page">Check out</a>
             </div>
           </div>
 
@@ -106,7 +142,7 @@
                 Rich chocolate cake topped <br />
                 with a sweet cherry.
               </p>
-              <a class="card__btn btn" href="#">Check out</a>
+              <a class="card__btn btn" href="#order__page">Check out</a>
             </div>
           </div>
           <div class="menu__card">
@@ -118,7 +154,7 @@
               <h3 class="card__name">Blueberry</h3>
               <p class="card__price">23.33</p>
               <p class="card__description">Lorem ipsum dolor sit.</p>
-              <a class="card__btn btn" href="#">Check out</a>
+              <a class="card__btn btn" href="#order__page">Check out</a>
             </div>
           </div>
 
@@ -131,7 +167,7 @@
               <h3 class="card__name">Blueberry</h3>
               <p class="card__price">23.33</p>
               <p class="card__description">Lorem ipsum dolor sit.</p>
-              <a class="card__btn btn" href="#">Check out</a>
+              <a class="card__btn btn" href="#order__page">Check out</a>
             </div>
           </div>
           <div class="menu__card">
@@ -143,7 +179,7 @@
               <h3 class="card__name">Blueberry</h3>
               <p class="card__price">23.33</p>
               <p class="card__description">Lorem ipsum dolor sit.</p>
-              <a class="card__btn btn" href="#">Check out</a>
+              <a class="card__btn btn" href="#order__page">Check out</a>
             </div>
           </div>
           <div class="menu__card">
@@ -155,7 +191,7 @@
               <h3 class="card__name">Blueberry</h3>
               <p class="card__price">23.33</p>
               <p class="card__description">Lorem ipsum dolor sit.</p>
-              <a class="card__btn btn" href="#">Check out</a>
+              <a class="card__btn btn" href="#order__page">Check out</a>
             </div>
           </div>
           <div class="menu__card">
@@ -167,7 +203,7 @@
               <h3 class="card__name">Blueberry</h3>
               <p class="card__price">23.33</p>
               <p class="card__description">Lorem ipsum dolor sit.</p>
-              <a class="card__btn btn" href="#">Check out</a>
+              <a class="card__btn btn" href="#order__page">Check out</a>
             </div>
           </div>
           <div class="menu__card">
@@ -179,7 +215,7 @@
               <h3 class="card__name">Blueberry</h3>
               <p class="card__price">23.33</p>
               <p class="card__description">Lorem ipsum dolor sit.</p>
-              <a class="card__btn btn" href="#">Check out</a>
+              <a class="card__btn btn" href="#order__page">Check out</a>
             </div>
           </div>
           <div class="menu__card">
@@ -191,7 +227,7 @@
               <h3 class="card__name">Blueberry</h3>
               <p class="card__price">23.33</p>
               <p class="card__description">Lorem ipsum dolor sit.</p>
-              <a class="card__btn btn" href="#">Check out</a>
+              <a class="card__btn btn" href="#order__page">Check out</a>
             </div>
           </div>
           <div class="menu__card">
@@ -203,7 +239,7 @@
               <h3 class="card__name">Blueberry</h3>
               <p class="card__price">23.33</p>
               <p class="card__description">Lorem ipsum dolor sit.</p>
-              <a class="card__btn btn" href="#">Check out</a>
+              <a class="card__btn btn" href="#order__page">Check out</a>
             </div>
           </div>
 
@@ -216,7 +252,7 @@
               <h3 class="card__name">Blueberry</h3>
               <p class="card__price">23.33</p>
               <p class="card__description">Lorem ipsum dolor sit.</p>
-              <a class="card__btn btn" href="#">Check out</a>
+              <a class="card__btn btn" href="#order__page">Check out</a>
             </div>
           </div>
 
@@ -229,7 +265,7 @@
               <h3 class="card__name">Blueberry</h3>
               <p class="card__price">23.33</p>
               <p class="card__description">Lorem ipsum dolor sit.</p>
-              <a class="card__btn btn" href="#">Check out</a>
+              <a class="card__btn btn" href="#order__page">Check out</a>
             </div>
           </div>
 
@@ -239,7 +275,7 @@
 
       <!--order form-->
 
-      <section class="order container">
+      <section class="order container" id="order__page">
         <div class="order__right">
           <img class="order__image" src="images/order__image_1.svg" alt="" />
         </div>
@@ -304,7 +340,6 @@
               </div>
 
               <div class="order__mode-payment">
-
                 <div class="order__mode-payment-title">Mode of payment</div>
 
                 <div class="payment__category">
@@ -318,6 +353,16 @@
                     <label>
                       <input type="radio" name="payment" value="paypal" />
                       PayPal
+                    </label>
+                  </div>
+                  <div class="mode">
+                    <label>
+                      <input
+                        type="radio"
+                        name="payment"
+                        value="bank_transfer"
+                      />
+                      GCash
                     </label>
                   </div>
                   <div class="mode">
@@ -344,14 +389,14 @@
               </div>
 
               <div class="order__buttons">
-                <button class="submit__btn btn" type="submit" class="submit__button">
+                <button
+                  class="submit__btn btn"
+                  type="submit"
+                  class="submit__button"
+                >
                   Place order
                 </button>
-                <button
-                  class="reset__btn"
-                  type="reset"
-                  class="cancel__button"
-                >
+                <button class="reset__btn" type="reset" class="cancel__button">
                   Cancel
                 </button>
               </div>
@@ -362,11 +407,11 @@
     </main>
     <footer class="footer">
       <div class="footer__content">
-        <p>&copy; 2024 Iglesia,Vincent D |  All rights reserved.</p>
+        <p>&copy; 2024 Iglesia,Vincent D | All rights reserved.</p>
         <nav class="footer__nav">
           <ul>
             <li><a href="#">Home</a></li>
-            <li><a href="#">About Us</a></li>
+            <li><a href="#">About</a></li>
             <li><a href="#">Contact</a></li>
           </ul>
         </nav>

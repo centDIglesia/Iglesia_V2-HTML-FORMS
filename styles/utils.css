@@ -20,7 +20,7 @@
 .btn{
     display: inline-block;
     font-weight: 600;
-    color: var(--clr-light);
+    color:white;
     text-decoration: none;
     letter-spacing: -0.05em;
     background-color: var(--clr-orange);

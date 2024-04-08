@@ -29,7 +29,7 @@
 }
 
 .hero__subtitle {
-  color: var(--clr-slate400);
+  color: var(--clr-slate600);
   line-height: 0.9em;
   max-width: 60ch;
   margin-bottom: var(--size-sm);

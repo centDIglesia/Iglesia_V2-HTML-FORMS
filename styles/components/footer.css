@@ -6,6 +6,7 @@
   align-items: center;
   flex-direction: column-reverse;
   justify-content: center;
+  color: white;
 }
 
 .footer__nav ul {
@@ -16,8 +17,11 @@
   justify-content: center;
   gap: 3em;
   padding: 0;
+ 
 }
 
 .footer__nav ul li a{
     text-decoration: none;
+   letter-spacing: -.05em;
+   font-size: var(--size-xs);
 }

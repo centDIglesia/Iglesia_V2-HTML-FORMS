@@ -5,10 +5,10 @@
   --clr-slate600: #475569;
   --clr-slate800: #1e293b;
   --clr-orange: #eb7d00;
-  --clr-purple: #6d28d9;
+ 
 
   --clrrgba-orange: rgba(235, 125, 0, 1);
-  --clrrgba-purple: rgba(109, 40, 217, 1);
+ 
 
   /* sizes */
   --size-xxs: 0.5rem;
@@ -37,9 +37,19 @@ html {
   scroll-behavior: smooth;
 }
 
+
+.light-mode{
+  --clr-light: #070a13;
+  --clr-dark: #f1f5f9;
+  --clr-slate400: #94a3b8;
+  --clr-slate800: #475569;
+  --clr-slate600: #1e293b;
+  
+
+}
 body {
   font-family: "Poppins", sans-serif;
-  background-color: var(--clr-light);
+  background-color: var(--clr-dark);
   color: var(--clr-light);
 }
 
