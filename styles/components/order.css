@@ -146,7 +146,6 @@
   flex-direction: column;
   gap: 1em;
   position: relative;
-  
 }
 
 .fs-option__btn {
@@ -175,8 +174,7 @@
   right: 0;
   top: 110%;
   display: none;
- z-index: 9999;
- 
+  z-index: 9999;
 }
 
 .food-service__options li {
@@ -193,6 +191,9 @@
 .food-service__options li:hover {
   background-color: var(--clr-slate600);
 }
+
+
+
 /* xs */
 @media (min-width: 475px) {
   .payment__category {
@@ -230,7 +231,28 @@
     width: 40%;
   }
 }
+#Message{
+  max-width: 100%;
+  min-width: 100%;
+  background-color:rgba(255, 119, 0, 0.1);
+  border: 1px solid var(--clr-orange);
+  border-radius: 6px;
+  outline: none;
+  font-size: var(--size-xs);
+  color: white;
+  padding: 1em;
 
+
+}
+
+.textarea{
+  color: var(--clr-orange);
+  font-size: var(--size-xs);
+  font-weight: 600;
+  letter-spacing: -0.05em;
+  display: inline-block;
+
+}
 /* xl */
 /* @media (min-width: 1280px) {} */
 
