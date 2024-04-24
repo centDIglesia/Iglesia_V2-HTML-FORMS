@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Cake shop</title>
+    <title>Gallery</title>
     <link
       href="https://api.fontshare.com/v2/css?f[]=poppins@300,400,500, 600, 700&display=swap"
       rel="stylesheet"
@@ -22,11 +22,11 @@
       <img class="logo" src="images/logo-main.svg" alt="logo" />
       <nav>
         <ul class="header__menu">
-          <li><a class="header__link link__active" href="#Home">Home</a></li>
-          <li><a class="header__link" href="gallery.html">Gallery</a></li>
+          <li><a class="header__link" href="index.html">Home</a></li>
           <li>
-            <a class="header__link link__cliked" href="#About">Services</a>
+            <a class="header__link link__active" href="#menu__page">Gallery</a>
           </li>
+          <li><a class="header__link" href="#Aboutt">Services</a></li>
           <li class="header__line"></li>
           <li>
             <button class="header__sun sun-js">
@@ -127,51 +127,22 @@
     </div>
 
     <!--end mobile nav-->
+    <!--menu start-->
+    <section class="menu container" id="menu__page">
+      <div class="menu__text">
+        <p class="menu__subtitle">Most Popular</p>
+        <h2 class="menu_title">Our Exclusive Cakes</h2>
+      </div>
 
-    <main>
-      <section class="hero container">
-        <div class="hero__left">
-          <h1 class="hero__title">
-            Satisfy Your <br />
-            sweet cravings with <br />
-            Just a Click!
-          </h1>
-          <p class="hero__subtitle">
-            Indulge in Sweet Moments: Where Every Slice Tells a Story!
-          </p>
-          <a class="hero__button btn" href="#menu__page">See menu</a>
-        </div>
+      <div class="menu__products-flex">
+        <!--products start-->
 
-        <div class="hero__right">
-          <img class="hero__image" src="/hero__image2.svg" alt="image" />
-        </div>
-      </section>
-      <!-- #region carousel-->
-      <section class="carousel container">
-        <div class="servicess__title">
-          <h3>Our services</h3>
-        </div>
-        <div class="slider-wrapper">
-          <div class="slider">
-            <img id="slide-1" src="images/slide1.png" alt="" />
-            <img id="slide-2" src="images/slide2.png" alt="" />
-            <img id="slide-3" src="images/slide 3.png" alt="" />
-          </div>
-          <div class="slider-nav">
-            <a href="#slide-1"></a>
-            <a href="#slide-2"></a>
-            <a href="#slide-3"></a>
-          </div>
-        </div>
-      </section>
-      <!--#endregion-->
+        <!--products end-->
+      </div>
+    </section>
 
-      <!-- #region products -->
-      <section class="products container">
-        
-      </section>
-      <!--#endregion end-Products-->
-    </main>
+    <!--end menu-->
+
     <footer class="footer">
       <div class="footer__content">
         <p>&copy; 2024 Iglesia,Vincent D | All rights reserved.</p>

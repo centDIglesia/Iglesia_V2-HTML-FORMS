@@ -20,6 +20,7 @@
   padding: 2em;
   background-color: rgba(255, 153, 0, 0.05);
   border-radius: 6px;
+  position: relative;
 }
 .order__title {
   text-align: center;
@@ -141,59 +142,88 @@
   width: 70%;
 }
 
-.food-service__conatiner {
-  display: flex;
-  flex-direction: column;
-  gap: 1em;
-  position: relative;
-}
+/*dropdown*/
 
-.fs-option__btn {
+.caketype__title {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  font-size: var(--size-xs);
-  padding: 1em;
   background-color: var(--clr-orange);
-  border-radius: 6px;
-  border: 1px solid var(--clr-orange);
-  transition: border 0.3s;
-}
-
-.fs-option__btn:hover {
-  border-bottom: 4px solid rgb(174, 87, 0);
-}
-.food-service__options {
-  position: absolute;
-  display: flex;
-  flex-direction: column;
-  list-style: none;
-  gap: 0.3em;
-  padding: 0;
-  width: 50%;
-  right: 0;
-  top: 110%;
-  display: none;
-  z-index: 9999;
-}
-
-.food-service__options li {
   padding: 1em;
-  font-size: var(--size-xs);
-  display: flex;
-  align-items: center;
-  cursor: pointer;
-  background-color: var(--clr-slate400);
-  transition: background-color 0.3s;
   border-radius: 6px;
-  box-shadow: 0 0 15px 2px rgba(0, 0, 0, 0.3);
+  font-size: var(--size-xs);
 }
-.food-service__options li:hover {
-  background-color: var(--clr-slate600);
+.caketype__list {
+  margin-top: 0.5em;
+  padding: 0;
+  background-color: #2c2c2c;
+  border-radius: 0.3em;
+  position: absolute;
+  left: 30px;
+  right: 30px;
+  opacity: 0;
+  pointer-events: none;
+  top: 550px;
+  transition: top .3s , opacity .3s;
 }
 
+.cake__type-select:hover .caketype__list{
+  opacity: 1;
+  pointer-events: auto;
+  top: 570px;
+}
+.dropdown__icon{
+  transition: transform .3s;
+}
+.cake__type-select:hover .dropdown__icon{
+  transform: rotate(90deg);
+}
 
+.caketype,
+.caketype1 {
+  display: flex;
+  padding: 0.9em 1em;
+  border-radius: 0.3em;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 0.7em;
+  transition: background-color 0.3s;
+}
 
+.caketype:hover {
+  background-color: rgba(255, 153, 0, 0.05);
+}
+.caketype__sub-list,
+.caketype__sub-options {
+  list-style: none;
+}
+
+.fa-plus {
+  font-size: 0.7em;
+  font-weight: 700;
+}
+
+.caketype__sub-sub-list {
+  padding: 0;
+  background-color: #ff84002b;
+}
+.caketype1 {
+  padding-left: 2em;
+}
+.caketype1:hover {
+  background-color: #2b2b2b;
+}
+
+.sub-item{
+ display: none;
+ 
+  transition: display .3s;
+}
+
+.sublist-item:hover .sub-item{
+  display: block;
+}
+/*end-dropdown*/
 /* xs */
 @media (min-width: 475px) {
   .payment__category {
@@ -231,30 +261,30 @@
     width: 40%;
   }
 }
-#Message{
+
+#Message {
   max-width: 100%;
   min-width: 100%;
-  background-color:rgba(255, 119, 0, 0.1);
+  background-color: rgba(255, 119, 0, 0.1);
   border: 1px solid var(--clr-orange);
   border-radius: 6px;
   outline: none;
   font-size: var(--size-xs);
   color: white;
   padding: 1em;
-
-
 }
 
-.textarea{
+.textarea {
   color: var(--clr-orange);
   font-size: var(--size-xs);
   font-weight: 600;
   letter-spacing: -0.05em;
   display: inline-block;
-
 }
 /* xl */
-/* @media (min-width: 1280px) {} */
+@media (min-width: 1280px) {
+}
 
 /* 2xl */
-/* @media (min-width: 1536px) {} */
+@media (min-width: 1536px) {
+}

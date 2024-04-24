@@ -1,5 +1,5 @@
 .menu {
-  margin-top: 8rem;
+  margin-top: 2rem;
 }
 
 .menu__text {
@@ -18,11 +18,9 @@
 }
 
 .menu__products-flex {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 1.5em;
-  margin-top: 2em;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-gap: 1.5em;
 }
 
 .menu__card {
@@ -35,7 +33,13 @@
   gap: 1.5em;
   padding: 2em 1em;
   background-color: rgba(255, 153, 0, 0.05);
+  transition:  background-color .2s ;
 }
+
+.menu__card:hover{
+  background-color: rgba(255, 153, 0, 0.192);
+}
+
 
 .card__image-container {
   width: 300px;
@@ -47,8 +51,12 @@
 
 .card__image {
   max-width: 60%;
+  transition: transform .3s;
 }
+.menu__card:hover .card__image{
 
+  transform: rotate(-6deg); 
+}
 .card__name {
   color: var(--clr-orange);
 }
