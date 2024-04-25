@@ -1,7 +1,7 @@
 export const products = [
   {
     id: "1",
-    image: "/images/cake1.svg",
+    image: "../../images/cake1.svg",
     name: "Blueberry Bliss Cupcake",
     priceCents: 2090,
     flavor: "Blueberry",
@@ -10,7 +10,7 @@ export const products = [
   },
   {
     id: "2",
-    image: "cake2.svg",
+    image: "../../images/cake2.svg",
     name: "Cherry Delight Cake",
     priceCents: 2490,
     flavor: "Cherry",
