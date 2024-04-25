@@ -1,7 +1,7 @@
 export const products = [
   {
     id: "1",
-    image: "../images/cake1.svg",
+    image: "../../images/cake1.svg",
     name: "Blueberry Bliss Cupcake",
     priceCents: 2090,
     flavor: "Blueberry",
@@ -10,7 +10,7 @@ export const products = [
   },
   {
     id: "2",
-    image: "../images/cake2.svg",
+    image: "../../images/cake2.svg",
     name: "Cherry Delight Cake",
     priceCents: 2490,
     flavor: "Cherry",
@@ -19,7 +19,7 @@ export const products = [
   },
   {
     id: "3",
-    image: "../images/cake3.svg",
+    image: "../../images/cake3.svg",
     name: "Cake Roll with Jelly Fillings",
     priceCents: 2950,
     flavor: "Jelly",
@@ -28,7 +28,7 @@ export const products = [
   },
   {
     id: "4",
-    image: "../images/cake4.svg",
+    image: "../../images/cake4.svg",
     name: "Strawberry Chocolate Delight",
     priceCents: 3180,
     flavor: "Strawberry",
@@ -37,7 +37,7 @@ export const products = [
   },
   {
     id: "5",
-    image: "../images/cake5.svg",
+    image: "../../images/cake5.svg",
     name: "Orange Butter Layered Cake",
     priceCents: 2750,
     flavor: "Orange",
@@ -46,7 +46,7 @@ export const products = [
   },
   {
     id: "6",
-    image: "../images/cake6.svg",
+    image: "../../images/cake6.svg",
     name: "Berry Cookie Crunch",
     priceCents: 2680,
     flavor: "Berry",
@@ -55,7 +55,7 @@ export const products = [
   },
   {
     id: "7",
-    image: "../images/cake7.svg",
+    image: "../../images/cake7.svg",
     name: "White Jelly Filling Cake",
     priceCents: 3120,
     flavor: "Jelly",
@@ -64,7 +64,7 @@ export const products = [
   },
   {
     id: "8",
-    image: "../images/cake8.svg",
+    image: "../../images/cake8.svg",
     name: "Crinkled Donut",
     priceCents: 3360,
     flavor: "Donut",
@@ -73,7 +73,7 @@ export const products = [
   },
   {
     id: "9",
-    image: "../images/cake9.svg",
+    image: "../../images/cake9.svg",
     name: "Jelly Ice Cream Gelatine",
     priceCents: 2630,
     flavor: "Jelly",
@@ -82,7 +82,7 @@ export const products = [
   },
   {
     id: "10",
-    image: "../images/cake10.svg",
+    image: "../../images/cake10.svg",
     name: "Chocolate Cookie Cake",
     priceCents: 3190,
     flavor: "Chocolate",
@@ -91,7 +91,7 @@ export const products = [
   },
   {
     id: "11",
-    image: "../images/cake11.svg",
+    image: "../../images/cake11.svg",
     name: "Crunchy Chocolate Cake",
     priceCents: 2800,
     flavor: "Chocolate",
@@ -100,7 +100,7 @@ export const products = [
   },
   {
     id: "12",
-    image: "../images/cake12.svg",
+    image: "../../images/cake12.svg",
     name: "Milk Cherry Cake",
     priceCents: 3010,
     flavor: "Milk",
@@ -110,7 +110,7 @@ export const products = [
 
   {
     id: "13",
-    image: "../images/candies/candy1.svg",
+    image: "../../images/candies/candy1.svg",
     name: "chocolate nips",
     priceCents: 3010,
     flavor: "chocolate",
@@ -119,7 +119,7 @@ export const products = [
   },
   {
     id: "14",
-    image: "../images/candies/candy2.svg",
+    image: "../../images/candies/candy2.svg",
     name: "Peanut Butter Bliss",
     priceCents: 2800,
     flavor: "peanut butter",
@@ -128,7 +128,7 @@ export const products = [
   },
   {
     id: "15",
-    image: "../images/candies/candy3.svg",
+    image: "../../images/candies/candy3.svg",
     name: "Caramel Crunch",
     priceCents: 3200,
     flavor: "caramel",
@@ -137,7 +137,7 @@ export const products = [
   },
   {
     id: "16",
-    image: "../images/candies/candy4.svg",
+    image: "../../images/candies/candy4.svg",
     name: "Berry Blast Bonanza",
     priceCents: 2900,
     flavor: "berry",
@@ -146,7 +146,7 @@ export const products = [
   },
   {
     id: "17",
-    image: "../images/candies/candy5.svg",
+    image: "../../images/candies/candy5.svg",
     name: "Lemon Drop Delight",
     priceCents: 3100,
     flavor: "lemon",
@@ -155,7 +155,7 @@ export const products = [
   },
   {
     id: "18",
-    image: "../images/candies/candy6.svg",
+    image: "../../images/candies/candy6.svg",
     name: "Minty Marvel",
     priceCents: 2700,
     flavor: "mint",
@@ -164,7 +164,7 @@ export const products = [
   },
   {
     id: "19",
-    image: "../images/candies/candy7.svg",
+    image: "../../images/candies/candy7.svg",
     name: "Strawberry Dream",
     priceCents: 3000,
     flavor: "strawberry",
@@ -174,7 +174,7 @@ export const products = [
   },
   {
     id: "20",
-    image: "../images/candies/candy8.svg",
+    image: "../../images/candies/candy8.svg",
     name: "Butterscotch Bliss",
     priceCents: 3300,
     flavor: "butterscotch",
@@ -184,7 +184,7 @@ export const products = [
   },
   {
     id: "21",
-    image: "../images/candies/candy9.svg",
+    image: "../../images/candies/candy9.svg",
     name: "Fruity Fusion Frenzy",
     priceCents: 3100,
     flavor: "mixed fruit",
@@ -195,7 +195,7 @@ export const products = [
 
   {
     id: "22",
-    image: "../images/candies/candy10.svg",
+    image: "../../images/candies/candy10.svg",
     name: "Fruity Fusion Frenzy",
     priceCents: 2100,
     flavor: "mixed fruit",
@@ -206,7 +206,7 @@ export const products = [
 
   {
     id: "23",
-    image: "../../../images/candies/candy11.svg",
+    image: "../../../../../../images/candies/candy11.svg",
     name: "Fruity Fusion Frenzy",
     priceCents: 2100,
     flavor: "mixed fruit",
@@ -217,7 +217,7 @@ export const products = [
 
   {
     id: "24",
-    image: "../images/customize/custom1.svg",
+    image: "../../images/customize/custom1.svg",
     name: "Fruity Fusion Frenzy",
     priceCents: 3100,
     flavor: "mixed fruit",
@@ -228,7 +228,7 @@ export const products = [
 
   {
     id: "25",
-    image: "../images/customize/custom2.svg",
+    image: "../../images/customize/custom2.svg",
     name: "Berry Blast",
     priceCents: 3200,
     flavor: "berry",
@@ -238,7 +238,7 @@ export const products = [
   },
   {
     id: "26",
-    image: "../images/customize/custom3.svg",
+    image: "../../images/customize/custom3.svg",
     name: "Tropical Tango",
     priceCents: 3300,
     flavor: "tropical",
@@ -247,7 +247,7 @@ export const products = [
   },
   {
     id: "27",
-    image: "../images/customize/custom4.svg",
+    image: "../../images/customize/custom4.svg",
     name: "Citrus Sensation",
     priceCents: 3100,
     flavor: "citrus",
@@ -256,7 +256,7 @@ export const products = [
   },
   {
     id: "28",
-    image: "../images/customize/custom5.svg",
+    image: "../../images/customize/custom5.svg",
     name: "Creamy Coconut",
     priceCents: 3400,
     flavor: "coconut",
@@ -265,7 +265,7 @@ export const products = [
   },
   {
     id: "29",
-    image: "../images/customize/custom6.svg",
+    image: "../../images/customize/custom6.svg",
     name: "Peach Paradise",
     priceCents: 3200,
     flavor: "peach",
@@ -274,7 +274,7 @@ export const products = [
   },
   {
     id: "30",
-    image: "../images/customize/custom7.svg",
+    image: "../../images/customize/custom7.svg",
     name: "Mango Madness",
     priceCents: 3300,
     flavor: "mango",
@@ -283,7 +283,7 @@ export const products = [
   },
   {
     id: "31",
-    image: "../images/customize/custom8.svg",
+    image: "../../images/customize/custom8.svg",
     name: "Pineapple Pleasure",
     priceCents: 3100,
     flavor: "pineapple",
@@ -293,7 +293,7 @@ export const products = [
   },
   {
     id: "32",
-    image: "../images/customize/custom9.svg",
+    image: "../../images/customize/custom9.svg",
     name: "Exotic Exhilaration",
     priceCents: 3400,
     flavor: "exotic",
