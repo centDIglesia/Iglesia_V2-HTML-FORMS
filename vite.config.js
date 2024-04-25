@@ -1,8 +1,15 @@
 import { defineConfig } from "vite";
-import VitePluginPages from "vite-plugin-gh-pages";
-
+import { resolve } from "path";
 
 export default defineConfig({
-  base: '/Iglesia_V2-HTML-FORMS/',
-  plugins: [],
+  base: "/Iglesia_V2-HTML-FORMS/",
+  build: {
+    rollupOptions: {
+      input: {
+        main: resolve(__dirname, "index.html"),
+        gallery: resolve(__dirname, "pages/gallery/gallery.html"),
+        cart: resolve(__dirname, "pages/cart/cart.html"),
+      },
+    },
+  },
 });
