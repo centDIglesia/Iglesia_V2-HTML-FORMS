@@ -4,7 +4,7 @@ export default function displayProducts() {
   let productHTML = '';
 
   products
-    .filter(product => product.type === 'customize') 
+    .filter(product => product.type === 'cake') 
     .forEach((product) => {
       productHTML += `
       <div class="menu__card">
