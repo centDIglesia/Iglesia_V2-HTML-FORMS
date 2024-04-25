@@ -1,7 +1,7 @@
 export const products = [
   {
     id: "1",
-    image: "../../images/cake1.svg",
+    image: "../images/cake1.svg",
     name: "Blueberry Bliss Cupcake",
     priceCents: 2090,
     flavor: "Blueberry",
