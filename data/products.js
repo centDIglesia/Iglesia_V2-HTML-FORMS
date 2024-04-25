@@ -1,7 +1,7 @@
 export const products = [
   {
     id: "1",
-    image: "images/cake1.svg",
+    image: "../../images/cake1.svg",
     name: "Blueberry Bliss Cupcake",
     priceCents: 2090,
     flavor: "Blueberry",
@@ -206,7 +206,7 @@ export const products = [
 
   {
     id: "23",
-    image: "images/candies/candy11.svg",
+    image: "../../images/candies/candy11.svg",
     name: "Fruity Fusion Frenzy",
     priceCents: 2100,
     flavor: "mixed fruit",
@@ -293,7 +293,7 @@ export const products = [
   },
   {
     id: "32",
-    image: "images/customize/custom9.svg",
+    image: "../../images/customize/custom9.svg",
     name: "Exotic Exhilaration",
     priceCents: 3400,
     flavor: "exotic",
