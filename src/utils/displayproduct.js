@@ -9,7 +9,7 @@ export default function displayProducts() {
       productHTML += `
       <div class="menu__card">
         <div class="card__image-container">
-          <img src="${product.image}" alt="" class="card__image" />
+          <img src="../../images/${product.image}" alt="" class="card__image" />
         </div>
         <div class="card__content">
           <h3 class="card__name">${product.name}</h3>
