@@ -174,7 +174,7 @@ export const products = [
   },
   {
     id: "20",
-    image: "/images/candies/candy8.svg",
+    image: "../../images/candies/candy8.svg",
     name: "Butterscotch Bliss",
     priceCents: 3300,
     flavor: "butterscotch",
@@ -184,7 +184,7 @@ export const products = [
   },
   {
     id: "21",
-    image: "/images/candies/candy9.svg",
+    image: "../../images/candies/candy9.svg",
     name: "Fruity Fusion Frenzy",
     priceCents: 3100,
     flavor: "mixed fruit",
@@ -195,7 +195,7 @@ export const products = [
 
   {
     id: "22",
-    image: "/images/candies/candy10.svg",
+    image: "../../images/candies/candy10.svg",
     name: "Fruity Fusion Frenzy",
     priceCents: 2100,
     flavor: "mixed fruit",
@@ -206,7 +206,7 @@ export const products = [
 
   {
     id: "23",
-    image: "///images/candies/candy11.svg",
+    image: "../../../../../../images/candies/candy11.svg",
     name: "Fruity Fusion Frenzy",
     priceCents: 2100,
     flavor: "mixed fruit",
@@ -217,7 +217,7 @@ export const products = [
 
   {
     id: "24",
-    image: "/images/customize/custom1.svg",
+    image: "../../images/customize/custom1.svg",
     name: "Fruity Fusion Frenzy",
     priceCents: 3100,
     flavor: "mixed fruit",
@@ -228,7 +228,7 @@ export const products = [
 
   {
     id: "25",
-    image: "/images/customize/custom2.svg",
+    image: "../../images/customize/custom2.svg",
     name: "Berry Blast",
     priceCents: 3200,
     flavor: "berry",
@@ -238,7 +238,7 @@ export const products = [
   },
   {
     id: "26",
-    image: "/images/customize/custom3.svg",
+    image: "../../images/customize/custom3.svg",
     name: "Tropical Tango",
     priceCents: 3300,
     flavor: "tropical",
@@ -247,7 +247,7 @@ export const products = [
   },
   {
     id: "27",
-    image: "/images/customize/custom4.svg",
+    image: "../../images/customize/custom4.svg",
     name: "Citrus Sensation",
     priceCents: 3100,
     flavor: "citrus",
@@ -256,7 +256,7 @@ export const products = [
   },
   {
     id: "28",
-    image: "/images/customize/custom5.svg",
+    image: "../../images/customize/custom5.svg",
     name: "Creamy Coconut",
     priceCents: 3400,
     flavor: "coconut",
@@ -265,7 +265,7 @@ export const products = [
   },
   {
     id: "29",
-    image: "/images/customize/custom6.svg",
+    image: "../../images/customize/custom6.svg",
     name: "Peach Paradise",
     priceCents: 3200,
     flavor: "peach",
@@ -274,7 +274,7 @@ export const products = [
   },
   {
     id: "30",
-    image: "/images/customize/custom7.svg",
+    image: "../../images/customize/custom7.svg",
     name: "Mango Madness",
     priceCents: 3300,
     flavor: "mango",
@@ -283,7 +283,7 @@ export const products = [
   },
   {
     id: "31",
-    image: "/images/customize/custom8.svg",
+    image: "../../images/customize/custom8.svg",
     name: "Pineapple Pleasure",
     priceCents: 3100,
     flavor: "pineapple",
@@ -293,7 +293,7 @@ export const products = [
   },
   {
     id: "32",
-    image: "/images/customize/custom9.svg",
+    image: "../../images/customize/custom9.svg",
     name: "Exotic Exhilaration",
     priceCents: 3400,
     flavor: "exotic",
