@@ -1,7 +1,7 @@
 export const products = [
   {
     id: "1",
-    image: "../../images/cake1.svg",
+    image: "/images/cake1.svg",
     name: "Blueberry Bliss Cupcake",
     priceCents: 2090,
     flavor: "Blueberry",
@@ -10,7 +10,7 @@ export const products = [
   },
   {
     id: "2",
-    image: "../../images/cake2.svg",
+    image: "/images/cake2.svg",
     name: "Cherry Delight Cake",
     priceCents: 2490,
     flavor: "Cherry",
@@ -19,7 +19,7 @@ export const products = [
   },
   {
     id: "3",
-    image: "../../images/cake3.svg",
+    image: "/images/cake3.svg",
     name: "Cake Roll with Jelly Fillings",
     priceCents: 2950,
     flavor: "Jelly",
@@ -28,7 +28,7 @@ export const products = [
   },
   {
     id: "4",
-    image: "../../images/cake4.svg",
+    image: "/images/cake4.svg",
     name: "Strawberry Chocolate Delight",
     priceCents: 3180,
     flavor: "Strawberry",
@@ -37,7 +37,7 @@ export const products = [
   },
   {
     id: "5",
-    image: "../../images/cake5.svg",
+    image: "/images/cake5.svg",
     name: "Orange Butter Layered Cake",
     priceCents: 2750,
     flavor: "Orange",
@@ -46,7 +46,7 @@ export const products = [
   },
   {
     id: "6",
-    image: "../../images/cake6.svg",
+    image: "/images/cake6.svg",
     name: "Berry Cookie Crunch",
     priceCents: 2680,
     flavor: "Berry",
@@ -55,7 +55,7 @@ export const products = [
   },
   {
     id: "7",
-    image: "../../images/cake7.svg",
+    image: "/images/cake7.svg",
     name: "White Jelly Filling Cake",
     priceCents: 3120,
     flavor: "Jelly",
@@ -64,7 +64,7 @@ export const products = [
   },
   {
     id: "8",
-    image: "../../images/cake8.svg",
+    image: "/images/cake8.svg",
     name: "Crinkled Donut",
     priceCents: 3360,
     flavor: "Donut",
