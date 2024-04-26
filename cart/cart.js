@@ -7,9 +7,9 @@ import "../../styles/components/cart.css";
 import "../../styles/components/footer.css";
 import "../../styles/components/mobile-nav.css";
 import "../../styles/utils.css";
-import showMobileNav from "../../src/utils/mobile-nav.js";
-import themeChange from "../../src/utils/theme.js";
-import displayProducts from "../../src/utils/displayproduct.js";
+import showMobileNav from "../src/utils/mobile-nav.js";
+import themeChange from "../src/utils/theme.js";
+import displayProducts from "../src/utils/displayproduct.js";
 
 
 showMobileNav();
