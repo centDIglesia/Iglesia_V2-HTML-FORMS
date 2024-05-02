@@ -31,7 +31,9 @@
             >
           </li>
           <li>
-            <a class="header__link link__cliked" href="#About">Services</a>
+            <a class="header__link link__cliked" href="#services__page"
+              >Services</a
+            >
           </li>
           <li class="header__line"></li>
           <li>
@@ -91,8 +93,14 @@
       <nav>
         <ul class="mobile-nav__menu">
           <li><a class="mobile-nav__link" href="index.html">Home</a></li>
-          <li><a class="mobile-nav__link" href="/pages/gallery/gallery.html">Gallery</a></li>
-          <li><a class="mobile-nav__link" href="cart/cart.html">Services</a></li>
+          <li>
+            <a class="mobile-nav__link" href="pages/gallery/gallery.html"
+              >Gallery</a
+            >
+          </li>
+          <li>
+            <a class="mobile-nav__link" href="#services__page">Services</a>
+          </li>
           <li class="mobile-nav__line"></li>
           <li>
             <button class="mobile-nav__sun sun-js">
@@ -153,7 +161,7 @@
         </div>
       </section>
       <!-- #region carousel-->
-      <section class="carousel container">
+      <section class="carousel container" id="services__page">
         <div class="servicess__title">
           <h3>Our services</h3>
         </div>
@@ -161,7 +169,7 @@
           <div class="slider">
             <img id="slide-1" src="/images/slide1.png" alt="" />
             <img id="slide-2" src="/images/slide2.png" alt="" />
-            <img id="slide-3" src="/images/slide3.png" alt="" />
+            <img id="slide-3" src="/images/slide 3.png" alt="" />
           </div>
           <div class="slider-nav">
             <a href="#slide-1"></a>
@@ -173,19 +181,130 @@
       <!--#endregion-->
 
       <!-- #region products -->
-      <section class="products container"></section>
+
+      <div class="cake__products container section">
+        <h1>Products</h1>
+        <div class="products__cards">
+          <div class="card__cake-products">
+            <div class="products__cateory--icon">
+              <i class="fa-solid fa-cake-candles"></i>
+            </div>
+
+            <div class="card__products--names">
+              <p>Cake</p>
+            </div>
+          </div>
+
+          <div class="card__cake-products">
+            <div class="products__cateory--icon">
+              <i class="fa-solid fa-ice-cream"></i>
+            </div>
+
+            <div class="card__products--names">
+              <p>Candy</p>
+            </div>
+          </div>
+          <div class="card__cake-products">
+            <div class="products__cateory--icon">
+              <i class="fa-solid fa-cookie-bite"></i>
+            </div>
+
+            <div class="card__products--names">
+              <p>Customize</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="products__promotions">
+        <div class="products__promotions-container container">
+          <div class="products__promotions-card">
+            <div class="promotions-image">
+              <img src="public/images/cake1.svg" alt="" class="pr-image" />
+            </div>
+            <div class="promotions-description">
+              <p>Lorem, ipsum dolor sit amet consectetur adipisicing.</p>
+            </div>
+          </div>
+
+          <div class="products__promotions-card">
+            <div class="promotions-image">
+              <img
+                src="public/images/candies/candy4.svg"
+                alt=""
+                class="pr-image"
+              />
+            </div>
+            <div class="promotions-description">
+              <p>Lorem, ipsum dolor sit amet consectetur adipisicing.</p>
+            </div>
+          </div>
+
+          <div class="products__promotions-card">
+            <div class="promotions-image">
+              <img
+                src="public/images/customize/custom8.svg"
+                alt=""
+                class="pr-image"
+              />
+            </div>
+            <div class="promotions-description">
+              <p>Lorem, ipsum dolor sit amet consectetur adipisicing.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="full__menu">
+        <a href="pages/gallery/gallery.html" class="menu__btn btn">show full menu
+          <i class="fa-solid fa-arrow-right"></i>
+
+        </a>
+
+      </div>
+
       <!--#endregion end-Products-->
     </main>
-    <footer class="footer">
-      <div class="footer__content">
-        <p>&copy; 2024 Iglesia,Vincent D | All rights reserved.</p>
-        <nav class="footer__nav">
-          <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Contact</a></li>
-          </ul>
-        </nav>
+    <footer class="footer section">
+      <div class="footer__content container">
+        <div class="footer__logo">
+          <img
+            src="public/images/logo-main.svg"
+            class="footer__logo-image"
+            alt=""
+          />
+        </div>
+
+        <div class="footer__section-1 links">
+          <span class="footer__title">Information</span>
+          <a href="" class="footer_links">About Us</a>
+          <a href="" class="footer_links">Blog</a>
+          <a href="" class="footer_links">Events</a>
+        </div>
+
+        <div class="footer__section-2 links">
+          <span class="footer__title">Helpul Links</span>
+          <a href="" class="footer_links">Services</a>
+          <a href="" class="footer_links">Support</a>
+          <a href="" class="footer_links">Terms & Conditions</a>
+        </div>
+        <div class="footer__section-3 links f--3">
+          <span class="footer__title">Our services</span>
+          <a href="" class="footer_links">Order</a>
+          <a href="" class="footer_links">Return and exchange</a>
+          <a href="" class="footer_links">Brands</a>
+        </div>
+        <div class="footer__contacts-icon">
+          <span class="footer__title">Contact us</span>
+
+          <div class="footer__icon">
+            <a href="https://web.facebook.com/profile.php?id=100083627924841"
+              ><i class="fa-brands fa-facebook-f f-icon"></i
+            ></a>
+            <a href=""> <i class="fa-brands fa-instagram f-icon"></i></a>
+            <a href=""> <i class="fa-brands fa-tiktok f-icon"></i></a>
+          </div>
+        </div>
       </div>
     </footer>
 

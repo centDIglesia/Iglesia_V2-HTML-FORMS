@@ -206,7 +206,7 @@ export const products = [
 
   {
     id: "23",
-    image: "../../../../../../images/candies/candy11.svg",
+    image: "../../images/candies/candy11.svg",
     name: "Fruity Fusion Frenzy",
     priceCents: 2100,
     flavor: "mixed fruit",
